@@ -18,7 +18,7 @@ function main(){
 
 
 			$('#open').animate({
-				marginTop: '-300px',
+				marginTop: '-450px',
 			},500);
 			// $('.menu .close').removeClass('none');
 			// $('.menu .close').addClass('inline-block');
@@ -32,7 +32,7 @@ function main(){
 			},500);
 
 			$('#close').animate({
-				marginTop: '-300px',
+				marginTop: '-450px',
 			},500);
 
 
