@@ -13,7 +13,7 @@
   .menu-opcion{
     overflow: hidden;
     padding: 1% 10%;
-    background-color: rgba(0,0,0, 0.8);
+    background-color: rgba(30,0,20, 0.8);
     cursor: pointer;
     display: block;
   }
@@ -34,7 +34,7 @@
   }
 
   #close{
-    margin-top: -120px;
+    margin-top: -450px;
     color: #fff;
   }
 
@@ -230,7 +230,7 @@
   }
 
   #close{
-    margin-top: -120px;
+    margin-top: -450px;
     color: #fff;
   }
 
@@ -426,7 +426,7 @@
   }
 
   #close{
-    margin-top: -120px;
+    margin-top: -450px;
     color: #fff;
   }
 
