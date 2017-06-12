@@ -6,7 +6,11 @@
 		<figure class="logo">
 			<img src="../img/calcu.png" alt="" class="img-responsive pull-left">
 		</figure>
-
+		<div id="header__icon" class="menu-opcion">
+		  <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+		  <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
+		  <p>Menu</p>
+		</div>
 		<nav class=" menu pull-right">
 			<ul>
 				<li><a href="../index.php">INDEX</a></li>
@@ -30,8 +34,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h3 class="">CALCUEXPRESS REPARADORES DE EMPRESAS S.C.P</h3>
-          <p> 
+          <h3 class="text-tit-contacto">CALCUEXPRESS REPARADORES DE EMPRESAS S.C.P</h3>
+          <p class="text-info-contacto">
             <br>Av. Paseo de la Reforma #383 <br>
                 por C. Rio Nilo y Rio Guadalquivir <br>
                 Col. Cuauhtemoc, Cd. de México C.P. 06500
@@ -42,23 +46,25 @@
         </div>
         <div class="col-md-6">
           <h2 class="pi-item">Formulario de contacto</h2>
-          <form>
+          <form onSubmit="return false">
             <fieldset class="form-group"> <label for="exampleInputEmail1">Nombre completo</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu nombre completo"> </fieldset>
+              <input type="text" id="txtNOMBRE" name="txtNOMBRE" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu nombre completo"> </fieldset>
 
               <fieldset class="form-group"> <label for="exampleInputEmail1">Teléfono</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu teléfono"> </fieldset>
+              <input type="text" id="txtTELEFONO" name="txtTELEFONO" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu teléfono"> </fieldset>
 
             <fieldset class="form-group"> <label for="exampleInputEmail1">Correo</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu correo"> </fieldset>
+              <input type="email" id="txtCORREO" name="txtCORREO" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu correo"> </fieldset>
 
               <fieldset class="form-group"> <label for="exampleInputEmail1">Comentario</label>
-               <textarea type="text" class="form-control" rows="3" placeholder="Escribe tu comentario"></textarea>
+               <textarea type="text" id="txtCOMENTARIO" name="txtCOMENTARIO" class="form-control" rows="3" placeholder="Escribe tu comentario"></textarea>
               </fieldset>
 
-             
+							<div id="_AJAX_PRE_"></div>
+							</div>
 
-            <button type="submit" class="btn btn-warning pull-right">Enviar</button>
+            <button type="submit" class="btn btn-warning pull-right" id="btnContactUs" onclick="sendCORREO()">Enviar</button>
+						<!-- <button type="submit" class="btn btn-warning pull-right" id="btnContactUs"  onclick="sendCORREO()">ENVIAR</button> -->
           </form>
         </div>
       </div>
@@ -71,6 +77,6 @@
 <script src="../js/bootstrap.js"></script>
 <script src="../js/funciondthc.js"></script>
 <script src="../js/menu.js"></script>
-
+<!-- <script src="../js/sendCORREO.js"></script> -->
 </body>
 </html>

@@ -6,7 +6,11 @@
 		<figure class="logo">
 			<img src="../img/calcu.png" alt="" class="img-responsive pull-left">
 		</figure>
-
+		<div id="header__icon" class="menu-opcion">
+		  <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+		  <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
+		  <p>Menu</p>
+		</div>
 		<nav class=" menu pull-right">
 			<ul>
 				<li><a href="../index.php">INDEX</a></li>
@@ -34,7 +38,7 @@
 	</div>
 	<div class="areados pull-right">
 		CALCUEXPRESS REPARADORES DE EMPRESAS practica exámenes sistemáticos a los estados financieros, registros y transacciones de cada uno de sus clientes para determinar la adherencia a: los principios de contabilidad, generalmente aceptados, a las políticas del ente auditado y a los preceptos legales locales. <br><br>
-		 
+
 		De la misma manera, mediante el examen exhaustivo de la información contable se puede detectar si los estados financieros están adecuadamente presentados en las fechas y periodos indicados.
 	</div>
 </div>
@@ -56,7 +60,7 @@
 	</div>
 	<div class="areados pull-right">
 		Comprende la aplicación de estrategias y procedimientos de carácter impositivo que permitan medir el beneficio obtenido por la empresa, derivado de la interpretación de las normas tributarias. <br><br>
-		 
+
 		Se suministra la información profesional y pertinente sobre las aplicaciones prácticas del régimen fiscal vigente, buscando la mejor alternativa que genere beneficios económicos al cliente.
 	</div>
 </div>

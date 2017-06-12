@@ -1,0 +1,727 @@
+@media screen and (max-width: 480px){
+  /******************DISEÑO INDEX*********************/
+  .banner{
+    height: 100%;
+  }
+
+  .logo{
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .menu-opcion{
+    overflow: hidden;
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu-opcion i{
+    float: left;
+  }
+
+  .menu-opcion p{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu-opcion i, .menu-opcion p{
+    margin: 0px;
+    color: #fff;
+  }
+
+  #close{
+    margin-top: -120px;
+    color: #fff;
+  }
+
+  .menu{
+    width: 100%;
+    margin: auto;
+    margin-top: -300px;
+  }
+
+  .menu ul li{
+    width: 100%;
+  }
+
+  .menu ul li a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0px;
+    height: 100%;
+  }
+
+  .puntos{
+    width: 100%;
+    height: 100%;
+  }
+
+  .puntoss{
+    width: 100%;
+    margin: 1% auto;
+  }
+
+  .img{
+    width: 100%;
+  }
+
+  .bannertext{
+    height: 100%;
+  }
+
+  .bannertext p{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .info h4{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .bannertext2{
+    height: 100%;
+  }
+
+  .bannertext2 p{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+  /******************END INDEX***********************/
+
+  /******************DISEÑO NOSOTROS****************/
+  .bannermenu2{
+    height: 100%;
+  }
+
+  .empresa{
+    height: 100%;
+  }
+
+  .empresa p{
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  .somos p{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  .boton2{
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  .img-fluid{
+    display: none;
+  }
+
+  .text-primary{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .lead{
+    text-align: justify;
+    padding: 1px 10px;
+  }
+  /******************END NOSOTROS*******************/
+
+  /******************DISEÑO SERVICIO****************/
+  .areauno{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .areauno br{
+    display:none;
+  }
+
+  .areados{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 12px;
+  }
+  /******************END SERVICIO*******************/
+
+  /******************DISEÑO CONTACTO****************/
+  .text-tit-contacto{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text-info-contacto{
+    text-align: center;
+  }
+
+  .text-info-contacto br{
+    /*display: none;*/
+  }
+
+  .text-info-contacto abbr{
+    font-weight: bold;
+    line-height: 30px;
+  }
+  /******************END CONTACTO*******************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /******************DISEÑO INDEX*********************/
+  .banner{
+    height: 100%;
+  }
+
+  .logo{
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .menu-opcion{
+    overflow: hidden;
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu-opcion i{
+    float: left;
+  }
+
+  .menu-opcion p{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu-opcion i, .menu-opcion p{
+    margin: 0px;
+    color: #fff;
+  }
+
+  #close{
+    margin-top: -120px;
+    color: #fff;
+  }
+
+  .menu{
+    width: 100%;
+    margin: auto;
+    margin-top: -450px;
+  }
+
+  .menu ul li{
+    width: 100%;
+  }
+
+  .menu ul li a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0px;
+    height: 100%;
+  }
+
+  .puntos{
+    width: 100%;
+    height: 100%;
+  }
+
+  .puntoss{
+    width: 100%;
+    margin: 1% auto;
+  }
+
+  .img{
+    width: 100%;
+  }
+
+  .bannertext{
+    height: 100%;
+  }
+
+  .bannertext p{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .info h4{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .bannertext2{
+    height: 100%;
+  }
+
+  .bannertext2 p{
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+  /******************END INDEX***********************/
+
+  /******************DISEÑO NOSOTROS****************/
+  .bannermenu2{
+    height: 100%;
+  }
+
+  .empresa{
+    height: 100%;
+  }
+
+  .empresa p{
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  .somos p{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  .boton2{
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  .img-fluid{
+    display: none;
+  }
+
+  .text-primary{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .lead{
+    text-align: justify;
+    padding: 1px 10px;
+  }
+  /******************END NOSOTROS*******************/
+
+  /******************DISEÑO SERVICIO****************/
+  .areauno{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .areauno br{
+    display:none;
+  }
+
+  .areados{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 12px;
+  }
+  /******************END SERVICIO*******************/
+
+  /******************DISEÑO CONTACTO****************/
+  .text-tit-contacto{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text-info-contacto{
+    text-align: center;
+  }
+
+  .text-info-contacto br{
+    /*display: none;*/
+  }
+
+  .text-info-contacto abbr{
+    font-weight: bold;
+    line-height: 30px;
+  }
+  /******************END CONTACTO*******************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /******************DISEÑO INDEX*********************/
+  .banner{
+    height: 100%;
+  }
+
+  .logo{
+    width: 30%;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .menu-opcion{
+    overflow: hidden;
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu-opcion i{
+    float: left;
+  }
+
+  .menu-opcion p{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu-opcion i, .menu-opcion p{
+    margin: 0px;
+    color: #fff;
+  }
+
+  #close{
+    margin-top: -120px;
+    color: #fff;
+  }
+
+  .menu{
+    width: 100%;
+    margin: auto;
+    margin-top: -450px;
+  }
+
+  .menu ul li{
+    width: 100%;
+  }
+
+  .menu ul li a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0px;
+    height: 100%;
+  }
+
+  .puntos{
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+  }
+
+  .puntoss{
+    width: 100%;
+    margin: 1% auto;
+  }
+
+  .img{
+    width: 50%;
+  }
+
+  .bannertext{
+    height: 100%;
+  }
+
+  .bannertext p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .info h4{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .bannertext2{
+    height: 100%;
+  }
+
+  .bannertext2 p{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+  /******************END INDEX***********************/
+
+  /******************DISEÑO NOSOTROS****************/
+  .bannermenu2{
+    height: 100%;
+  }
+
+  .empresa{
+    height: 100%;
+  }
+
+  .empresa p{
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  .somos p{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  .boton2{
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  .img-fluid{
+    display: none;
+  }
+
+  .text-primary{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .lead{
+    text-align: justify;
+    padding: 1px 10px;
+  }
+  /******************END NOSOTROS*******************/
+
+  /******************DISEÑO SERVICIO****************/
+  .areauno{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .areauno br{
+    display:none;
+  }
+
+  .areados{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 12px;
+  }
+  /******************END SERVICIO*******************/
+
+  /******************DISEÑO CONTACTO****************/
+  .text-tit-contacto{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text-info-contacto{
+    text-align: center;
+  }
+
+  .text-info-contacto abbr{
+    font-weight: bold;
+    line-height: 30px;
+  }
+  /******************END CONTACTO*******************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+  .contenlogomenu{
+    width: 85%;
+  }
+
+  .menu{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .menu ul li{
+    float: none;
+    display: inline-block;
+    margin-left: -10px;
+  }
+
+  .bannertext2{
+    height: 100%;
+  }
+
+  /******************DISEÑO NOSOTROS****************/
+  .bannermenu2{
+    height: 100%;
+  }
+
+  .empresa{
+    height: 100%;
+  }
+
+  .empresa p{
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  .somos p{
+    width: 100%;
+    margin: 0px;
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  .boton2{
+    text-align: center;
+    margin-top: 180px;
+  }
+
+  .img-fluid{
+    display: none;
+  }
+
+  .text-primary{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .lead{
+    text-align: justify;
+    padding: 1px 10px;
+  }
+  /******************END NOSOTROS*******************/
+
+  /******************DISEÑO SERVICIO****************/
+  .areauno{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .areados{
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 12px;
+  }
+  /******************END SERVICIO*******************/
+
+  /******************DISEÑO CONTACTO****************/
+  .text-tit-contacto{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text-info-contacto{
+    text-align: center;
+  }
+
+  /******************END CONTACTO*******************/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+
+
+  .contenlogomenu{
+    width: 85%;
+  }
+
+  .menu{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+  }
+
+  .menu ul li{
+    float: none;
+    display: inline-block;
+    margin-left: -10px;
+  }
+
+
+  .bannertext2{
+    height: 100%;
+  }
+
+  /******************DISEÑO SERVICIO****************/
+  .areauno{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/*
+  .areados{
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 12px;
+  }*/
+  /******************END SERVICIO*******************/
+
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  .menu{
+    width: 60%;
+  }
+ }
+
+@media screen and (min-width: 1367px) { }

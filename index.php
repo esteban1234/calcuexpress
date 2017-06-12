@@ -8,8 +8,12 @@
 		<figure class="logo">
 			<img src="img/calcu.png" alt="" class="img-responsive pull-left">
 		</figure>
-
-		<nav class=" menu pull-right">
+		<div id="header__icon" class="menu-opcion">
+		  <i id="open" class="fa fa-align-justify fa-2x" aria-hidden="true"></i>
+		  <i id="close" class="fa fa-close fa-2x close"  aria-hidden="true"></i>
+		  <p>Menu</p>
+		</div>
+		<nav class="menu pull-right">
 			<ul>
 				<li><a class="select" href="index.php">INDEX</a></li>
 				<li><a href="vistas/nosotros.php">NOSOTROS</a></li>
@@ -27,9 +31,6 @@
 		<p class="puntoss"><span><i class="fa fa-check fa-spin fa-1x fa-fw" aria-hidden="true"></i></span>&nbsp;Asesoría contable</p>
         <p class="puntoss"><span><i class="fa fa-check fa-spin fa-1x fa-fw" aria-hidden="true"></i></span>&nbsp;Asesoría técnica</p>
         <p class="puntoss"><span><i class="fa fa-check fa-spin fa-1x fa-fw" aria-hidden="true"></i></span>&nbsp;Asesoría legal</p>
-            
-            
-            
 		</div>
 		<div class="img pull-right">
 			<img src="img/economica.jpg" alt="" class="img-responsive">
@@ -55,7 +56,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <div class="box">
                 <div class="box-icon">
@@ -88,7 +89,7 @@
 	<p>Servicio legal y contable para pequeñas y grandes empresas</p>
 	<article class="boton"><a href="vistas/contacto.php">Contáctanos</a></article>
 </div>
- 
+
 <?php include 'vistas/pie.php' ?>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>

@@ -6,6 +6,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.menu-opcion{
+  display: none; 
+}
+
 .banner{
     height: 550px;
     background: url('../img/conta.jpg') no-repeat;
